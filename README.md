@@ -25,7 +25,7 @@ A Python script that scrapes Spotify playlists and saves song lists to organized
 
 ```bash
 git clone https://github.com/Victor-Void/Spotify-Scraper.git
-cd spotify_scraper
+cd Spotify-Scraper
 ```
 
 Or download and extract the ZIP file.
