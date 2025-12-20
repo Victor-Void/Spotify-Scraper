@@ -2,24 +2,24 @@
 
 A Python script that scrapes Spotify playlists and saves song lists to organized text files. Works with both public and private playlists by using your Firefox browser profile.
 
-## ✨ Features
+## Features
 
-- 🔐 **Access Private Playlists** - Uses your Firefox profile with Spotify login
-- 🔄 **Multiple Playlists** - Download multiple playlists in one session
-- 📝 **Complete Song Info** - Scrapes song names and artist names
-- 📁 **Auto-Organization** - Creates folders in Downloads with playlist names
-- 💾 **Text Export** - Saves songs to `.txt` files
-- 🎯 **Smart Filtering** - Excludes "Recommended" section songs
-- 🔄 **Dynamic Scrolling** - Handles large playlists automatically
-- 🛡️ **Robust** - Multiple selector fallbacks and error handling
+- **Access Private Playlists** - Uses your Firefox profile with Spotify login
+- **Multiple Playlists** - Download multiple playlists in one session
+- **Complete Song Info** - Scrapes song names and artist names
+- **Auto-Organization** - Creates folders in Downloads with playlist names
+- **Text Export** - Saves songs to `.txt` files
+- **Smart Filtering** - Excludes "Recommended" section songs
+- **Dynamic Scrolling** - Handles large playlists automatically
+- **Robust** - Multiple selector fallbacks and error handling
 
-## 📋 Requirements
+## Requirements
 
 - **Python 3.7+**
 - **Firefox Browser** (installed and set up)
 - **Spotify Account** (logged into Firefox for private playlists)
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Clone or Download
 
@@ -55,7 +55,7 @@ source venv/bin/activate
 python main.py
 ```
 
-## 📖 Usage
+## Usage
 
 1. **Start the script:**
    ```bash
@@ -81,7 +81,7 @@ python main.py
    - Type `y` to download another playlist
    - Type `n` to exit and close the browser
 
-## 📂 Output Format
+## Output Format
 
 Songs are saved in `~/Downloads/[Playlist Name]/songs.txt`:
 
@@ -96,7 +96,7 @@ Total Songs: 50
 ...
 ```
 
-## 🔧 Platform-Specific Notes
+## Platform-Specific Notes
 
 ### Linux
 - Firefox profile is automatically detected from `~/.mozilla/firefox/`
@@ -111,7 +111,7 @@ Total Songs: 50
 - Firefox profile location: `~/Library/Application Support/Firefox/Profiles/`
 - May need to modify the `find_firefox_profile()` function
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### "Profile lock" error
 - **Solution:** Make sure Firefox is completely closed before running the script
@@ -131,19 +131,19 @@ Total Songs: 50
 - **Solution:** The script auto-downloads GeckoDriver via `webdriver-manager`
 - If issues persist, manually download from [Mozilla's releases](https://github.com/mozilla/geckodriver/releases)
 
-## 🤝 Contributing
+## Contributing
 
 Feel free to open issues or submit pull requests for improvements!
 
-## 📝 License
+## License
 
 MIT License - See LICENSE file for details
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 This tool is for personal use only. Please respect Spotify's Terms of Service and use responsibly. Do not use this for commercial purposes or to redistribute copyrighted content.
 
-## 🎯 Tips
+## Tips
 
 - **Large Playlists:** The script handles scrolling automatically, but very large playlists (1000+ songs) may take a few minutes
 - **Private Playlists:** Make sure you're logged into Spotify in Firefox
