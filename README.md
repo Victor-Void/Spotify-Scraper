@@ -30,13 +30,13 @@ cd Spotify-Scraper
 
 Or download and extract the ZIP file.
 
-### 2. Install Python Dependencies
+### 2. Run the Setup Script
+
+The script will automatically create a virtual environment and install all required dependencies.
 
 **On Linux/Mac:**
 ```bash
-python3 -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
+bash setup.sh
 ```
 
 **On Windows:**
@@ -51,6 +51,7 @@ pip install -r requirements.txt
 **Important:** Close Firefox before running to avoid profile lock issues!
 
 ```bash
+source venv/bin/activate
 python main.py
 ```
 
